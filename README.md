@@ -2,11 +2,7 @@
 Simulation of virtual page tables
 
 Hierarchy:
--CPU
----MMU
-------TLB
----------TibEntry
+-CPU -> MMU -> TLB -> TibEntry
+-VPT -> PageTableEntry
 -Pmemory
--VPT
-  -PageTableEntry
 -OS
